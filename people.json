@@ -1,0 +1,32 @@
+{
+  "luke": {
+    "name": "Luke Skywalker",
+    "job": "Jedi Knight",
+    "age": 24
+  },
+  "albert": {
+    "name": "Albert Einetein",
+    "job": "Scientist",
+    "age": 68
+  },
+  "stephen": {
+    "name": "Stephen Curry",
+    "job": "MVP",
+    "age": 28
+  },
+  "jon": {
+    "name": "Jon Stewart",
+    "job": "Comedian",
+    "age": 53
+  },
+  "john": {
+    "name": "John Steinbeck",
+    "job": "Author",
+    "age": 57
+  },
+  "donald": {
+    "name": "Donald Knuth",
+    "job": "Programmer",
+    "age": 78
+  }
+}
