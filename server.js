@@ -34,7 +34,7 @@ app.use(express.static(path.join(__dirname, 'public')));
  */
 app.get('/people', function (req, res) {
 
-  var content = peoplePageTemplate({people: people});
+  var content = peoplePageTemplate({ people: people });
   res.send(content);
 
 });
