@@ -11,7 +11,7 @@
     </header>
     <main>
       {{#each people}}
-        <div class="person">
+        <div class="person{{#if is65OrOlder}} highlight{{/if}}">
           <p><a href="/people/{{@key}}">{{name}}</p>
         </div>
       {{/each}}

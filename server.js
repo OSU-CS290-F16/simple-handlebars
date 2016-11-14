@@ -14,6 +14,16 @@ var personPageTemplate = Handlebars.compile(personPageSource);
 var peoplePageSource = fs.readFileSync(path.join(__dirname, 'templates', 'people-page.html'), 'utf8');
 var peoplePageTemplate = Handlebars.compile(peoplePageSource);
 
+/*
+ * Do some preprocessing on our data to make special note of people 65 or
+ * older.
+ */
+Object.keys(people).forEach(function (person) {
+  if (people[person].age >= 65) {
+    people[person].is65OrOlder = true;
+  }
+});
+
 // Serve static files from public/.
 app.use(express.static(path.join(__dirname, 'public')));
 

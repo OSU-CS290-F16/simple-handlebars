@@ -39,3 +39,11 @@ a:hover {
 .person p {
   margin: 0;
 }
+
+.highlight {
+  background-color: #8eb35f;
+}
+
+.highlight a:hover {
+  background-color: #b4cb98;
+}
